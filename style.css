@@ -40,10 +40,33 @@ a {
     color: rgb(59, 58, 58);
 }
 
-#sidebar {
+/* #sidebar {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
+} */
 
 #main {
     background-image: url("papyrus.png") ;
+}
+
+img {
+  float: right;
+}
+
+#content {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  float: left;
+}
+
+p {
+  margin: 16px 0px
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+h1 {
+  margin-left:40px;
 }
