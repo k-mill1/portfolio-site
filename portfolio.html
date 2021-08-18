@@ -10,7 +10,9 @@
         <!--custom css -->
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <title>Portfolio - Kaisa Mill</title>
     </head>
     <body>
@@ -57,46 +59,86 @@
                         <h1>PORTFOLIO</h1>  
                     </div> 
                     <div class="row justify-content-center" id = "content">
-                        <div class="col">
+                        <div class="col-md">
                             <h4>Caesar Cypher</h4></br>
                             <p>A JavaScript encoding/decoding web app using the Caesar cypher and an HTML user interface. The cypher has increased complexity through the addition of rolling substitution. This will require two keys – first which dictates the shift, the second how much the shift changes for each new letter. </p>
                             <a href="https://github.com/k-mill1/caesar-cipher.git" class="btn" role="button" target="_blank" disabled>Demo Site</a>
                             <a href="https://github.com/k-mill1/caesar-cipher.git" class="btn" role="button" target="_blank">View Code</a> 
+                            </br></br>
                         </div>
-                        <div class="col">
+                        <div class="col-md" >
                             <img src = "caesar.png">
                         </div>    
                     </div>
                     <div class="row justify-content-center" id = "content">
-                        <div class="col">
+                        <div class="col-md">
                             <h4>OOP Adventure Game</h4></br>
                             <p>A text-based adventure game using object-oriented programming techniques in JavaScript.  The aim of the game is to defeat the dragon and find a pot of gold. To do that, the player needs to move around the rooms, interact with game characters and collect items. </p>
                             <a href="https://k-mill1.github.io/OOP-adventure-game/" class="btn" role="button" target="_blank" disabled>Demo Site</a>
                             <a href="https://github.com/k-mill1/OOP-adventure-game.git" class="btn" role="button" target="_blank">View Code</a> 
+                            </br></br>
                         </div>
-                        <div class="col">
-                            <img src = "game.png">
+                        <div class="col-md">
+                            <div id="carousel1" class="carousel slide" data-bs-ride="carousel" data-bs-keyboard="true">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img style="width: 100%"src="game.png" alt="OOP game start page.">
+                                      </div>
+                                      <div class="carousel-item ">
+                                        <img style="width: 100%" src="game2.png" alt="OOp game first page after starting.">
+                                      </div>
+                                </div>
+                                <!-- Carousel Buttons -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                         </div>    
                     </div>
                     <div class="row justify-content-center" id = "content">
-                        <div class="col">
+                        <div class="col-md">
                             <h4>JavaScript Quiz</h4></br>
                             <p>A JavaScript quiz that asks a series of  multiple choice questions and produces a result on completion of all the questions. This quiz takes the form of “mostly a’s” type of scoring. It has five questions. If any of the answer corresponding to a specific result is selected more than two times, that result gets produced. If none of the answers get selected at least three times, the result cannot be calculated. </p>
                             <a href="https://k-mill1.github.io/javascript-quiz/" class="btn" role="button" target="_blank" disabled>Demo Site</a>
                             <a href="https://github.com/k-mill1/javascript-quiz.git" class="btn" role="button" target="_blank">View Code</a> 
+                            </br></br>
                         </div>
-                        <div class="col">
-                            <img src = "quiz.png">
+                        <div class="col-md">
+                            <div id="carousel2" class="carousel slide" data-bs-ride="carousel" data-bs-keyboard="true">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img style="width: 100%"src="quiz3.png" alt="Quiz start page.">
+                                      </div>
+                                      <div class="carousel-item ">
+                                        <img style="width: 100%" src="quiz4.png" alt="First quiz question.">
+                                      </div>
+                                </div>
+                                <!-- Carousel Buttons -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
                         </div>    
                     </div>
                     <div class="row justify-content-center" id = "content">
-                        <div class="col">
+                        <div class="col-md">
                             <h4>Hobby Website</h4></br>
                             <p>A simple website using HTML and CSS. Layout has been done using Bootstrap's responsive, mobile-first fluid grid system.</p>
                             <a href="https://k-mill1.github.io/hobby-site/" class="btn" role="button" target="_blank" disabled>Demo Site</a>
                             <a href="https://github.com/k-mill1/hobby-site.git" class="btn" role="button" target="_blank">View Code</a> 
+                            </br></br>
                         </div>
-                        <div class="col">
+                        <div class="col-md">
                             <img src = "hobby.png">
                         </div>    
                     </div>
